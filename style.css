@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+#canvas1 {
+  position: absolute;
+}
+
+.controls {
+  position: absolute;
+  z-index: 100;
+}
+
+img {
+  display: none;
+}
+
+#warpButton {
+  padding: 20px;
+  font-size: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  transition: 200ms;
+  background: rgb(195, 255, 244);
+}
+
+#warpButton:hover {
+  background-color: rgb(132, 254, 232);
+}
